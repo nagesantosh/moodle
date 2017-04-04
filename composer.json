@@ -9,6 +9,16 @@
         "phpunit/phpunit": "3.7.*",
         "phpunit/dbUnit": "1.2.*",
         "moodlehq/behat-extension": "1.29.8"
-
-  }
+  },
+   "require": {
+                "behat/gherkin": "~2.3.0",
+                "php": ">=5.3.1",
+                "symfony/config": "~2.3",
+                "symfony/console": "~2.0",
+                "symfony/dependency-injection": "~2.0",
+                "symfony/event-dispatcher": "~2.0",
+                "symfony/finder": "~2.0",
+                "symfony/translation": "~2.3",
+                "symfony/yaml": "~2.0"
+            }
 }
