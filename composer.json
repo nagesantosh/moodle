@@ -9,11 +9,6 @@
         "phpunit/phpunit": "3.7.*",
         "phpunit/dbUnit": "1.2.*",
         "moodlehq/behat-extension": "1.29.8"
-    },
-    "require": {
-    	"php": "^5.3.1",
-	"mysql":"~14.14",
-	"html" : "5"
 
   }
 }
