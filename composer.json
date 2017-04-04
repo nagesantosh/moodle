@@ -3,15 +3,19 @@
         {
             "type": "vcs",
             "url": "https://github.com/moodlehq/moodle-behat-extension"
+
         }
     ],
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "phpunit/dbUnit": "1.2.*",
-        "moodlehq/behat-extension": "1.29.8"
+        "moodlehq/behat-extension": "1.29.8",
+	"heroku/heroku-buildpack-php": "*"
     },
     "require": {
-	"Node.js":"5.9.1",
-	"php": "^5.3.1"
+	"silex/silex": "^1.3",
+    	"monolog/monolog": "^1.4",
+    	"twig/twig": "^1.8",
+    	"symfony/twig-bridge": "^2"
   }
 }
